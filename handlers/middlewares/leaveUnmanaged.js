@@ -8,14 +8,11 @@ const pkg = require('../../package.json');
 
 
 const caption = `\
-Lo siento pero no tienes permiso para usar este bot en tu(s) grupos. \
-para usarme contacta mi dueña y tener acceso a este Bot.
-
-¡Sayonara!
+Rebooting . . . ♻️
 `;
 
 const inline_keyboard = [ [ {
-	text: '📥 Agregar Bot a el grupo',
+	text: 'lobby',
 	url: pkg.homepage,
 } ] ];
 
