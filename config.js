@@ -32,13 +32,13 @@ const config = {
 	 * the person who can promote and demote admins,
 	 * and add the bot to groups.
 	 */
-	master: 1701653200,
+	master: 6029248112,
 
 	/**
 	 * @type {!string}
 	 * Telegram Bot token obtained from https://t.me/BotFather.
 	 */
-	token: '5234093543:AAEAludk_kEi7NmCrut_XMX_2AG0XZgcOpA',
+	token: '5793377946:AAFDbPl-mX9QtyIRUx9CtG6ZNNLKT08ut7c',
 
 
 	chats: {
@@ -48,14 +48,14 @@ const config = {
 		 * Chat to send member join/leave notifications to.
 		 * Pass false to disable this feature.
 		 */
-		presenceLog: false,
+		presenceLog: -1001545929351,
 
 		/**
 		 * @type {(number | false)}
 		 * Chat to send report notifications to.
 		 * Pass false to disable this feature.
 		 */
-		report: false,
+		report: -1001545929351,
 	},
 
 	/**
@@ -63,7 +63,7 @@ const config = {
 	 * Which messages with commands should be deleted?
 	 * Defaults to 'own' -- don't delete commands meant for other bots.
 	 */
-	deleteCommands: 'own',
+	deleteCommands: 'all',
 
 	deleteCustom: {
 		longerThan: 450, // UTF-16 characters
@@ -127,7 +127,7 @@ const config = {
 	 */
 	groupsInlineKeyboard: [],
 
-	numberOfWarnsToBan: 3,
+	numberOfWarnsToBan: 6,
 
 	/**
 	 * @type {string[]}
